@@ -112,8 +112,8 @@ for (let i = 0; i < datas.data.length; i++) {
       <div>Arrived at ${time}</div>
     </div>
     <div id="town-hall-tower">
-    <h2>Occupancy rate for ${product_name}</h2>
     <h1>${(Math.random() * (80 - 50) + 50).toFixed(2)}%</h1>
+    <div style="text-align:center;">Occupancy rate for ${product_name}</div>
       </div>
   </div>`
       , customOptions).on("click", runTabs)
@@ -159,8 +159,8 @@ for (let i = 0; i < datas.data.length; i++) {
       <div>Not occupy</div>
     </div>
     <div id="town-hall-tower">
-      <h2>Occupancy rate for ${product_name}</h2>
-      <h1>${(Math.random() * (80 - 50) + 50).toFixed(2)}%</h1>
+    <h1>${(Math.random() * (80 - 50) + 50).toFixed(2)}%</h1>
+    <div style="text-align:center;">Occupancy rate for ${product_name}</div>
     </div>
   </div>`
       , customOptions).on("click", runTabs)

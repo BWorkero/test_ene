@@ -103,12 +103,12 @@ for (let i = 0; i < datas.data.length; i++) {
     })
     .bindPopup(`<div class="customPopup">
     <ul class="tabs-example" data-tabs>
-      <li><a data-tabby-default href="#sukiennice">Occupation today</a></li>
-      <li><a href="#town-hall-tower">Occupation rate</a></li>
+      <li><a data-tabby-default href="#sukiennice">Occupancy today</a></li>
+      <li><a href="#town-hall-tower">Occupancy rate</a></li>
     </ul>
     <div id="sukiennice">
       <h2>${product_name}</h2>
-      <div>Occupy by ${hero}</div>
+      <div>Occupied by ${hero}</div>
       <div>Arrived at ${time}</div>
     </div>
     <div id="town-hall-tower">
@@ -127,12 +127,12 @@ for (let i = 0; i < datas.data.length; i++) {
     })
     .bindPopup(`<div class="customPopup">
     <ul class="tabs-example" data-tabs>
-      <li><a data-tabby-default href="#sukiennice">Occupation today</a></li>
-      <li><a href="#town-hall-tower">Occupation rate</a></li>
+      <li><a data-tabby-default href="#sukiennice">Occupancy today</a></li>
+      <li><a href="#town-hall-tower">Occupancy rate</a></li>
     </ul>
     <div id="sukiennice">
       <h2>${product_name}</h2>
-      <div>Occupy by ${hero}</div>
+      <div>Occupied by ${hero}</div>
       Not yet arrived
     </div>
     <div id="town-hall-tower">
@@ -151,8 +151,8 @@ for (let i = 0; i < datas.data.length; i++) {
     })
     .bindPopup(`<div class="customPopup">
     <ul class="tabs-example" data-tabs>
-      <li><a data-tabby-default href="#sukiennice">Occupation today</a></li>
-      <li><a href="#town-hall-tower">Occupation rate</a></li>
+      <li><a data-tabby-default href="#sukiennice">Occupancy today</a></li>
+      <li><a href="#town-hall-tower">Occupancy rate</a></li>
     </ul>
     <div id="sukiennice">
       <h2>${product_name}</h2>

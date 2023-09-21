@@ -1,5 +1,5 @@
 import datas from './static/data.json';
-console.log(datas)
+
 //                              GET REALTIME INFO
 // const mysql = require('mysql')
 

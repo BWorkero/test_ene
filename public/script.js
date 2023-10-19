@@ -56,6 +56,7 @@ for (let i = 0; i < datas.data.length; i++) {
     <li><a href="#town-hall-tower">Manual settings</a></li>
   </ul>
   <div style="text-align:center;"id="sukiennice">
+  <h1>${product_name}</h1>
     <label class="switch">
     <input type="checkbox">
     <span class="slider round"> </span>
@@ -63,7 +64,7 @@ for (let i = 0; i < datas.data.length; i++) {
     <div class="auto"> Temperature based on occupancy </div>
   </div>
   <div id="town-hall-tower">
-
+  <h1>${product_name}</h1>
   <input id="slide" type="range" min="15" max="25"  value="18">
   <output id="output">18°</output>
   

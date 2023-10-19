@@ -64,7 +64,7 @@ for (let i = 0; i < datas.data.length; i++) {
   </div>
   <div id="town-hall-tower">
 
-  <input id="slide" type="range" min="50" max="100" step="10"  value="50">
+  <input id="slide" type="range" min="15" max="25"  value="18">
   <output id="output">18°</output>
   
     <button class="btn">Confirm</button>
@@ -74,15 +74,16 @@ for (let i = 0; i < datas.data.length; i++) {
   
 }
 
-  document.getElementById("slide").oninput = function() {
-      myFunction()
-  };
-  
-  function myFunction() {
-     var val = document.getElementById("slide").value //gets the oninput value
-     document.getElementById('output').innerHTML = val //displays this value to the html page
-     console.log(val)
-  }
+
 function runTabs() {
   const tabs = new Tabby("[data-tabs]");
+  document.getElementById("slide").oninput = function() {
+    myFunction()
+};
+
+function myFunction() {
+   var val = document.getElementById("slide").value //gets the oninput value
+   document.getElementById('output').innerHTML = val+"°" //displays this value to the html page
+   console.log(val+"°")
+}
 }
